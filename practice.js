@@ -89,7 +89,7 @@ Instead, console.log your whole backPack object and then check out the console. 
       married: false,
       eyeColor: "brown",
       hairColor: "black"
-  }
+  };
 
 
 //Now, loop through your object and alert every value. *Tyler --> 24 --> 6'0 --> Male, etc etc
@@ -108,15 +108,19 @@ Instead, console.log your whole backPack object and then check out the console. 
 
 //Create an Object called 'album' with 5 keys named different song titles that you make up, with the values being the length of each song.
 
-  //Code Here
+  var album = {
+    "Three Crows": "319s",
+    "What Am I Doing": "434s",
+    "She Lies": "627s",
+    "Creep": "333s",
+    "Weirdo": "548s"
+};
 
 //Now, loop through your album object alerting every song title individually.
 
-  //Code Here
-
-
-
-
+  for (var key in album) {
+      alert(key);
+  }
 //NEXT PROBLEM
 
 
