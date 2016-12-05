@@ -81,11 +81,22 @@ Instead, console.log your whole backPack object and then check out the console. 
 
 //Create an 'alsoMe' object with the following properties name, age, height, gender, married, eyeColor, hairColor. Fill those properties in with the appropriate values.
 
-  //Code Here
+  var alsoMe = {
+      name: "Nicholas Mastracola",
+      age: 24,
+      height: "5'11\"",
+      gender: "male",
+      married: false,
+      eyeColor: "brown",
+      hairColor: "black"
+  }
+
 
 //Now, loop through your object and alert every value. *Tyler --> 24 --> 6'0 --> Male, etc etc
 
-  //Code Here
+  for (var prop in alsoMe) {
+      alert(alsoMe[prop]);
+  }
 
 
 
