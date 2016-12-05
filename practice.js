@@ -225,7 +225,8 @@ object. One called 'alertHello' which alerts 'hello' and another method called l
 
 //Now call your alertHello and logHello methods.
 
-  //Code Here
+  methodCollection.alertHello();
+  methodCollection.logHello();
 
 
 
@@ -236,7 +237,13 @@ object. One called 'alertHello' which alerts 'hello' and another method called l
 // Create a function called makePerson which takes in name, birthday, ssn as its
 // parameters and returns a new object with all of the information that you passed in.
 
-  //Code Here
+  function makePerson(name, birthday, ssn) {
+      var obj = {};
+      obj.name = name;
+      obj.birthday = birthday;
+      obj.ssn = ssn;
+      return obj;
+  }
 
 
 
