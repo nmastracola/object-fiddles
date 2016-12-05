@@ -128,11 +128,21 @@ Instead, console.log your whole backPack object and then check out the console. 
 
 //Create an object called states that has 5 US states as properties with the values being their population (doesn't have to be accurate).
 
-  //Code Here
+  var states = {
+      Utah: 3858494,
+      California: 48292384,
+      Pennsylvania: 6383929,
+      Wyoming: 2812,
+      Georgia: 2993948
+  };
 
 //Now, loop through your states object and if the states population is greater than 30K, alert that state.
 
-  //Code Here
+  for (var prop in states) {
+      if (states[prop] > 30000) {
+          alert(prop);
+      }
+  }
 
 
 
